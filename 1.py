@@ -9,11 +9,11 @@ from email.mime.text import MIMEText
 
 def SendEmails(al):
 
-	msg_from='2595351441@qq.com' 
+	msg_from='' 
 	                               #发送方邮箱
-	passwd='htffxazaxxbtdjcc'                                   #填入发送方邮箱的授权码
-	msg_to='2595351441@qq.com'
-	msg_to1='2247645341@qq.com'                                #收件人邮箱                      
+	passwd=''                                   #填入发送方邮箱的授权码
+	msg_to=''
+	msg_to1=''                                #收件人邮箱                      
 	subject="最新咨询"                                     #主题     
 	content=al   #正文
 	msg = MIMEText(content)
